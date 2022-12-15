@@ -1,17 +1,16 @@
-img {
-    height: 80px;
-}
-
-.center {
+.menu-navigation {
     margin-left: auto;
     margin-right: 0;
     display: flex;
 }
 
-.center li{
+img {
+    height: 80px;
+}
+
+.menu-navigation li{
     margin-top: 3%;
     margin-left: 80px;
-
 }
 
 nav{
@@ -43,10 +42,6 @@ body{
 .ul-sans-style a:hover{
     transition-duration: 200ms;
     color: red;
-}
-
-nav {
-    margin: 0;
 }
 
 footer {
