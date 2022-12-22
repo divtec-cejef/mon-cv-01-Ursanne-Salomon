@@ -1,11 +1,40 @@
+
+@font-face {
+    font-family: "Concert";
+url("//fonts.google.com/specimen/Concert+One");
+}
+
+body {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    background-color: black;
+    color: white;
+    font-family: Concert, sans-serif;
+}
+
 .menu-navigation {
     margin-left: auto;
     margin-right: 0;
     display: flex;
 }
 
-img {
+header img {
     height: 80px;
+}
+
+main img {
+    height: 200px;
+    width: 600px;
+    object-fit: cover;
+}
+
+h2 {
+    margin-bottom: 1px;
+}
+
+ul {
+    margin-top:0;
 }
 
 .menu-navigation li{
@@ -13,19 +42,12 @@ img {
     margin-left: 80px;
 }
 
-nav{
+nav {
     text-align: right;
     padding: 0;
 }
 
-body{
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
-    margin-left: 20px;
-}
-
-.ul-sans-style {
+nav ul {
     list-style-type: none;
     color: aqua;
     padding: 0;
@@ -34,12 +56,17 @@ body{
     text-decoration: none;
 }
 
-.ul-sans-style a{
+a{
     text-decoration: none;
     color: white;
 }
 
-.ul-sans-style a:hover{
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a:hover{
     transition-duration: 200ms;
     color: red;
 }
@@ -47,14 +74,4 @@ body{
 footer {
     margin: 20px;
     text-align: center;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-body a:hover {
-    transition-duration: 200ms;
-    color: red;
 }
