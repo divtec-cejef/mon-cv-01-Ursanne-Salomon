@@ -1,16 +1,12 @@
 
-@font-face {
-    font-family: "Concert";
-url("//fonts.google.com/specimen/Concert+One");
-}
-
 body {
     text-align: center;
     margin: auto;
     max-width: 600px;
-    background-color: black;
     color: white;
-    font-family: Concert, sans-serif;
+    font-family: Concert One, sans-serif;
+    font-weight: 400;
+    background-image: url("https://diapogram.com/upload/2018/04/10/20180410133409-7ff8c878.jpg");
 }
 
 .menu-navigation {
@@ -37,6 +33,10 @@ ul {
     margin-top:0;
 }
 
+nav li {
+    padding-top: 5%;
+}
+
 .menu-navigation li{
     margin-top: 3%;
     margin-left: 80px;
@@ -61,9 +61,13 @@ a{
     color: white;
 }
 
+p {
+    margin-top: 0;
+}
+
 ul {
     list-style-type: none;
-    padding: 0;
+    padding: 3px;
 }
 
 a:hover{
