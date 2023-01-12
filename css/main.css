@@ -1,0 +1,63 @@
+
+body {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    color: white;
+    font-family: Concert One, sans-serif;
+    font-weight: 400;
+    line-height: 1.4em;
+    background-image: url("https://diapogram.com/upload/2018/04/10/20180410133409-7ff8c878.jpg");
+    background-size: 100%;
+}
+
+nav {
+    display: flex;
+    text-align: right;
+}
+
+header img {
+    height: 80px;
+}
+
+main img {
+    height: 200px;
+    width: 600px;
+    object-fit: cover;
+}
+
+h2 {
+    margin-bottom: 1px;
+}
+
+ul {
+    margin-top:0;
+    list-style-type: none;
+    padding: 3px;
+}
+
+nav li {
+    padding-top: 5%;
+    margin-top: 3%;
+    margin-left: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    transition-duration: 200ms;
+    color: red;
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+}
