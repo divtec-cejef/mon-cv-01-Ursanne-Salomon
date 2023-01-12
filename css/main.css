@@ -6,13 +6,14 @@ body {
     color: white;
     font-family: Concert One, sans-serif;
     font-weight: 400;
+    line-height: 1.4em;
     background-image: url("https://diapogram.com/upload/2018/04/10/20180410133409-7ff8c878.jpg");
+    background-size: 100%;
 }
 
-.menu-navigation {
-    margin-left: auto;
-    margin-right: 0;
+nav {
     display: flex;
+    text-align: right;
 }
 
 header img {
@@ -31,43 +32,24 @@ h2 {
 
 ul {
     margin-top:0;
+    list-style-type: none;
+    padding: 3px;
 }
 
 nav li {
     padding-top: 5%;
-}
-
-.menu-navigation li{
     margin-top: 3%;
     margin-left: 80px;
 }
 
-nav {
-    text-align: right;
-    padding: 0;
-}
-
 nav ul {
     list-style-type: none;
-    color: aqua;
-    padding: 0;
-    margin: 0;
     display: flex;
-    text-decoration: none;
 }
 
 a{
     text-decoration: none;
     color: white;
-}
-
-p {
-    margin-top: 0;
-}
-
-ul {
-    list-style-type: none;
-    padding: 3px;
 }
 
 a:hover{
